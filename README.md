@@ -47,7 +47,7 @@ To deploy on Linux, make sure all prerequisites are installed:
 * `g++`
 * `zlib` (e.g. `zlib1g-dev` on Debian)
 * `curl` (needed to download the official server .jar)
-* a recent version of Java (needed to extract data from the server .jar)
+* a recent version of Java [Java 21+] (needed to extract data from the server .jar)
 
 Then execute `make` to build, followed by `make run` to start a server on port 25565.
 
